@@ -303,7 +303,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To The Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=456934284566069248&permissions=8&scope=bot')
+     .setURL(' للاسف لايمكنني اعطائك بوت لانه بروميوم')
   .setDescription(`**
   Someone Added Me ✅
 اسم السيرفر: ${guild.name}
@@ -315,7 +315,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To The Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=456934284566069248&permissions=8&scope=bot')
+     .setURL('للاسف لايمكنني اعطائك بوت لانه بروميوم')
   .setDescription(`**
   I Got Kicked :cry:
 اسم السيرفر: ${guild.name}
@@ -328,7 +328,7 @@ client.channels.get("470259562121920512").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['In 77 Server','*help | *invite','In 77 Server','*help | *invite','In 77 Server'];
+    var setGame = ['In 1 Server','%help | %bc','In 77 Server','%help | Kbot .., Support','In 1 Server'];
     var i = -1;
     var j = 0;
     setInterval(function (){
