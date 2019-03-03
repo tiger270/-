@@ -27,7 +27,7 @@ const sql = require("sqlite");
  const pretty = require('pretty-ms') 
 ,ti={}  
 ,spee={};
- const prefix = "*";
+ const prefix = "%";
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
@@ -272,7 +272,6 @@ ${prefix}support ⥨ لدخول سيرفر الدعم
 	  
 الاوامــر الــعـــامـــة
 
-⤠ *invite ⥨ لدعوة البوت الى سيرفرك
 ⤠ *server ⥨ معلومات عن السيرفر                      
 ⤠ *say ⥨ البوت يردد كلامك         
 ⤠ *setcolor ⥨ عشان تغير لونك ملاحظة لازم تحط رقم اللون                                          
@@ -467,7 +466,7 @@ client.on('message', function(message) {
         });
     } else if(message.content.startsWith(prefix + "stream")) {
 		        if(message.author.id !== myID) return;
-            if(!args) return message.reply('اكتب الحالة اللي تريدها.');
+            if(!args) return message.reply('Kbot...');
         client.user.setGame(args , 'https://twitch.tv/6xlez1');
         message.channel.send(':white_check_mark: Done!').then(msg => {
            msg.delete(5000);
