@@ -318,7 +318,7 @@ client.on('guildDelete', guild => {
   I Got Kicked :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("477443676910518282,543858517832892442").sendEmbed(embed)
+client.channels.get("543858517832892442").sendEmbed(embed)
 });
 
 
