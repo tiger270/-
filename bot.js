@@ -791,7 +791,7 @@ if (message.content.startsWith(prefix + 'trans')) {
      let embed = new Discord.RichEmbed()
   .setAuthor(message.author.username)
   .setColor("#9B59B6")
-  .addField(" ** :scales:سيرفر الدعم:scales:  **" , "  **https://discord.gg/feMu8XW**")
+  .addField(" ** :scales:سيرفر الدعم:scales:  **" , "  **https://discord.gg/5PBMF9b**")
      
      
   message.channel.sendEmbed(embed);
