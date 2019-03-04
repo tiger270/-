@@ -248,10 +248,7 @@ ${prefix}music ⥨ اوامر الموسيقى
 
 Other Commands:
 
-
 ${prefix}support ⥨ لدخول سيرفر الدعم
-
-
 	  `)
    message.channel.sendEmbed(embed)
     
@@ -326,7 +323,7 @@ client.channels.get("543858517832892442").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['In 1 Server','*help | *bc','In 1 Server','By:Mehdi.شيخ مصمم | Kbot .., Support','In 1 Server'];
+    var setGame = ['In 1 Server','*help | *bc','In 1 Server','By:Mehdi.شيخ مصمم |','In 1 Server'];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -401,7 +398,7 @@ setInterval(function(){})
 
 client.on('message', message => {
     if(message.content == prefix + 'servers') {
-             if(!message.author.id === '244888652004458497') return;
+             if(!message.author.id === '543858517832892442') return;
     var gimg;
     var gname;
     var gmemb;
@@ -427,7 +424,7 @@ client.on('message', message => {
     
     client.on('message', message => {
     if(message.content == prefix + 'servers') {
-             if(!message.author.id === '244888652004458497') return;
+             if(!message.author.id === '543858517832892442') return;
     var gimg;
     var gname;
     var gmemb;
@@ -809,7 +806,7 @@ client.on('message', message => {
                 if(message.content === prefix + "invite") {
                     let embed = new Discord.RichEmbed ()
                     embed.setTitle("**:point_right: Click Here**")
-                  .setFooter(`King Bot `,'https://cdn.discordapp.com/attachments/457004554869932033/471106003249659914/image.jpg')
+                  .setFooter(`King Bot `,'دا بروميوم مو مجاني')
                   .setURL("https://goo.gl/ADmgeW");
                    message.channel.sendEmbed(embed);
                   }
