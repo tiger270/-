@@ -2133,7 +2133,7 @@ message.author.sendEmbed(embed)
 
 
 client.on("guildMemberAdd", member => {
-  let welcomer = member.guild.channels.find("name","اسم الروم");
+  let welcomer = member.guild.channels.find("name","welcome");
         if(!welcomer) return;
         if(welcomer) {
            moment.locale('ar-ly');
@@ -2169,7 +2169,7 @@ client.on('guildMemberAdd', member => {
     invites[member.guild.id] = guildInvites;
     const invite = guildInvites.find(i => gamer.get(i.code).uses < i.uses);
     const inviter = client.users.get(invite.inviter.id);
-    const welcome = member.guild.channels.find(channel => channel.name === "اسم الروم");
+    const welcome = member.guild.channels.find(channel => channel.name === "welcome");
     welcome.send( ${member.user.tag} invited by ${inviter.tag} invites =  ${invite.uses} `)
   });
 
