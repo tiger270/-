@@ -463,7 +463,7 @@ client.on('message', function(message) {
           message.delete(5000);
         });
     } else if(message.content.startsWith(prefix + "stream")) {
-		        if(message.author.id !== myID) return;
+		        if(message.author.id !== myID) false;
             if(!args) return message.reply('Kbot...');
         client.user.setGame(args , 'https://twitch.tv/6xlez1');
         message.channel.send(':white_check_mark: Done!').then(msg => {
