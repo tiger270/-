@@ -249,8 +249,6 @@ ${prefix}music ⥨ اوامر الموسيقى
 Other Commands:
 
 
-${prefix}invite ⥨ لدعوة البوت الى سيرفرك
-
 ${prefix}support ⥨ لدخول سيرفر الدعم
 
 
@@ -320,7 +318,7 @@ client.on('guildDelete', guild => {
   I Got Kicked :cry:
 اسم السيرفر: ${guild.name}
 صاحب السيرفر: ${guild.owner}**`);
-client.channels.get("470259562121920512").sendEmbed(embed)
+client.channels.get("477443676910518282,543858517832892442").sendEmbed(embed)
 });
 
 
