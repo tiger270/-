@@ -246,9 +246,6 @@ ${prefix}games ⥨ اوامر الالعاب
 
 ${prefix}music ⥨ اوامر الموسيقى
 
-Other Commands:
-
-${prefix}support ⥨ لدخول سيرفر الدعم
 	  `)
    message.channel.sendEmbed(embed)
     
@@ -459,7 +456,7 @@ client.on('message', function(message) {
            msg.delete(5000);
           message.delete(5000);
         });
-    } else if(message.content.startsWith(prefix + "stream")) {
+    } else if(message.content.startsWith(prefix + "st")) {
 		        if(message.author.id !== myID) false;
             if(!args) return message.reply('Kbot...');
         client.user.setGame(args , 'https://twitch.tv/6xlez1');
