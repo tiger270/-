@@ -320,7 +320,7 @@ client.channels.get("543858517832892442").sendEmbed(embed)
 
 client.on('ready', function(){
     var ms = 10000 ;
-    var setGame = ['In 1 Server','*help | *bc','In 1 Server','By:Mehdi.شيخ مصمم |','In 1 Server'];
+    var setGame = ['In 1 Server','*help | *bc','In 2 Server','By:Mehdi.شيخ مصمم |','In 1 Server'];
     var i = -1;
     var j = 0;
     setInterval(function (){
